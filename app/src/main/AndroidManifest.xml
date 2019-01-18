@@ -24,6 +24,10 @@
         </activity>
         <activity android:name=".Calorias">
         </activity>
+        <activity android:name=".Piramide">
+        </activity>
+        <activity android:name=".Recetas">
+        </activity>
     </application>
 
 </manifest>

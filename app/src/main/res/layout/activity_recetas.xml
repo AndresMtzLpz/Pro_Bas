@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/fondo"
+        tools:context=".Recetas">
+
+
+    <TextView
+            android:text="Recetas Saludables"
+            android:textColor="@color/blanco"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"/>
+
+    <android.support.v7.widget.CardView
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+        <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="left"
+                android:padding="10dp"
+                tools:srcCompat="@drawable/toast"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginLeft="90dp"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="90dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:text="Desayunos Saludables"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:text="Comienza tu dia con un buen desayuno"
+                    android:textSize="10sp"
+            />
+            <Button
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/boton_calcular"
+                    android:text="Ver más"
+                    android:textColor="@color/blanco"
+                    android:textSize="10sp"
+            />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+        <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="left"
+                android:padding="10dp"
+                tools:srcCompat="@drawable/turkey"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginLeft="90dp"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="90dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:text="Comidas Saludables"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:text="Hora de escoger tus ingredientes"
+                    android:textSize="10sp"
+            />
+            <Button
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/boton_calcular"
+                    android:text="Ver más"
+                    android:textColor="@color/blanco"
+                    android:textSize="10sp"
+            />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+        <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="left"
+                android:padding="10dp"
+                tools:srcCompat="@drawable/coffee"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginLeft="90dp"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="90dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:text="Cenas Saludables"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:text="Para dormir bien, una cena ligera"
+                    android:textSize="10sp"
+            />
+            <Button
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/boton_calcular"
+                    android:text="Ver más"
+                    android:textColor="@color/blanco"
+                    android:textSize="10sp"
+            />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
